@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="firstuserexp" duration-ms="19866" started-at="2014-05-23T13:44:25Z" finished-at="2014-05-23T13:44:45Z">
+    <groups>
+    </groups>
+    <test name="WithSpouse" duration-ms="19866" started-at="2014-05-23T13:44:25Z" finished-at="2014-05-23T13:44:45Z">
+      <class name="com.jiff.newuserwithspouse.tests.NewUserExperienceTest">
+        <test-method status="PASS" signature="launchIncentivesApplication()[pri:0, instance:com.jiff.newuserwithspouse.tests.NewUserExperienceTest@3586385a]" name="launchIncentivesApplication" is-config="true" duration-ms="10046" started-at="2014-05-23T06:44:25Z" finished-at="2014-05-23T06:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchIncentivesApplication -->
+        <test-method status="FAIL" signature="validateNewUserHomePageBeActiveTest()[pri:0, instance:com.jiff.newuserwithspouse.tests.NewUserExperienceTest@3586385a]" name="validateNewUserHomePageBeActiveTest" duration-ms="7181" started-at="2014-05-23T06:44:35Z" finished-at="2014-05-23T06:44:42Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//*[@id='js-period-2014-05-01']/div/div[1]/div/div[3]/p/a/img"}
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'ower-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 80841674-7ed4-4275-9272-22d91fc50f09
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='js-period-2014-05-01']/div/div[1]/div/div[3]/p/a/img"}
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'ower-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 80841674-7ed4-4275-9272-22d91fc50f09
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=27.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+	at com.jiff.incentives.pages.HomePage.getBeActiveIncentivePayouts(HomePage.java:729)
+	at com.jiff.newuserwithspouse.tests.NewUserExperienceTest.validateNewUserHomePageBeActiveTest(NewUserExperienceTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//*[@id='js-period-2014-05-01']/div/div[1]/div/div[3]/p/a/img"}
+Build info: version: '2.40.0', revision: '4c5c0568b004f67810ee41c459549aa4b09c651e', time: '2014-02-19 11:13:01'
+System info: host: 'ower-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ower/AppData/Local/Temp/anonymous6017886861633315244webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8904)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ower/AppData/Local/Temp/anonymous6017886861633315244webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8913)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ower/AppData/Local/Temp/anonymous6017886861633315244webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10878)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ower/AppData/Local/Temp/anonymous6017886861633315244webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10883)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ower/AppData/Local/Temp/anonymous6017886861633315244webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10825)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewUserHomePageBeActiveTest -->
+        <test-method status="FAIL" signature="validateNewUserHomePageFoodTrackTest()[pri:0, instance:com.jiff.newuserwithspouse.tests.NewUserExperienceTest@3586385a]" name="validateNewUserHomePageFoodTrackTest" duration-ms="22" started-at="2014-05-23T06:44:42Z" finished-at="2014-05-23T06:44:42Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.jiff.incentives.pages.BasePage.isElementPresent(BasePage.java:72)
+	at com.jiff.incentives.pages.NewUserHomePage.trackFoodChooseOne(NewUserHomePage.java:318)
+	at com.jiff.incentives.pages.NewUserHomePage.trackFoodSkipForNow(NewUserHomePage.java:334)
+	at com.jiff.newuserwithspouse.tests.NewUserExperienceTest.validateNewUserHomePageFoodTrackTest(NewUserExperienceTest.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewUserHomePageFoodTrackTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.jiff.newuserwithspouse.tests.NewUserExperienceTest@3586385a]" name="logout" is-config="true" duration-ms="2538" started-at="2014-05-23T06:44:42Z" finished-at="2014-05-23T06:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeIncentivesApplication()[pri:0, instance:com.jiff.newuserwithspouse.tests.NewUserExperienceTest@3586385a]" name="closeIncentivesApplication" is-config="true" duration-ms="3260" started-at="2014-05-23T06:44:45Z" finished-at="2014-05-23T06:44:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIncentivesApplication -->
+      </class> <!-- com.jiff.newuserwithspouse.tests.NewUserExperienceTest -->
+    </test> <!-- WithSpouse -->
+  </suite> <!-- firstuserexp -->
+</testng-results>

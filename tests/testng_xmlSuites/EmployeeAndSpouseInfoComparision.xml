@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="empAndSpouseInfoComp" parallel="false">
+  <test name="empAndSpouseInfoComp">
+    <classes>
+    	  <class name="com.jiff.homepage.test.EmployeeAndSpouseInfoComparisionTest"/>      
+    </classes>
+  </test> 
+</suite> 

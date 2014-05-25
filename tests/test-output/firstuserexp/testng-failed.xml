@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [firstuserexp]">
+  <parameter name="limit" value="250"/>
+  <parameter name="token" value=""/>
+  <parameter name="seed" value="500"/>
+  <parameter name="userId" value="bayampuser2.2086+0033@gmail.com"/>
+  <parameter name="activationAmount" value="25"/>
+  <parameter name="password" value="password1"/>
+  <parameter name="signupAmount" value="25"/>
+  <parameter name="spouseEmail" value="bayampuser2.2086+007s@gmail.com"/>
+  <test name="WithSpouse(failed)">
+    <parameter name="limit" value="250"/>
+    <parameter name="token" value=""/>
+    <parameter name="seed" value="500"/>
+    <parameter name="userId" value="bayampuser2.2086+0033@gmail.com"/>
+    <parameter name="activationAmount" value="25"/>
+    <parameter name="signupAmount" value="25"/>
+    <parameter name="password" value="password1"/>
+    <parameter name="spouseEmail" value="bayampuser2.2086+007s@gmail.com"/>
+    <classes>
+      <class name="com.jiff.newuserwithspouse.tests.NewUserExperienceTest">
+        <methods>
+          <include name="launchIncentivesApplication"/>
+          <include name="logout"/>
+          <include name="validateNewUserHomePageBeActiveTest"/>
+          <include name="closeIncentivesApplication"/>
+          <include name="validateNewUserHomePageFoodTrackTest"/>
+        </methods>
+      </class> <!-- com.jiff.newuserwithspouse.tests.NewUserExperienceTest -->
+    </classes>
+  </test> <!-- WithSpouse(failed) -->
+</suite> <!-- Failed suite [firstuserexp] -->

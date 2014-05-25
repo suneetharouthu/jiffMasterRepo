@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="userId" value="bayampuser2.2086+002@gmail.com"/>
+  <parameter name="password" value="password1"/>
+  <test name="settings(failed)">
+    <parameter name="userId" value="bayampuser2.2086+002@gmail.com"/>
+    <parameter name="password" value="password1"/>
+    <classes>
+      <class name="com.jiff.settingspage.tests.SettingsPageTest">
+        <methods>
+          <include name="launchIncentivesApplication"/>
+          <include name="logout"/>
+          <include name="updatePasswordTest"/>
+        </methods>
+      </class> <!-- com.jiff.settingspage.tests.SettingsPageTest -->
+    </classes>
+  </test> <!-- settings(failed) -->
+</suite> <!-- Failed suite [Suite] -->

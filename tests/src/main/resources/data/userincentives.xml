@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incentives>
+	<stepTrack>
+		<step average="5K">
+			<firstMonth>$25</firstMonth>
+			<furtureMonth>$25</furtureMonth>
+		</step>
+	
+		<step average="7.5K">
+			<firstMonth>$25</firstMonth>
+			<furtureMonth>$25</furtureMonth>
+		</step>
+	
+		<step average="10K">
+			<firstMonth>$50</firstMonth>
+			<furtureMonth>$50</furtureMonth>
+		</step>	
+		
+		<step average="12.5K">
+			<firstMonth>$75</firstMonth>
+			<furtureMonth>$75</furtureMonth>
+		</step>
+	</stepTrack>
+	
+	<foodTrack>
+		<food average = "2X">
+			<firstMonth>$25</firstMonth>
+			<furtureMonth>N/A</furtureMonth>
+		</food>
+		
+		<food average = "3X">
+			<firstMonth>$25</firstMonth>
+			<furtureMonth>$25</furtureMonth>
+		</food>
+	
+		<food average = "5X">
+			<firstMonth>$50</firstMonth>
+			<furtureMonth>$50</furtureMonth>
+		</food>
+		
+		<food average = "7X">
+			<firstMonth>$75</firstMonth>
+			<furtureMonth>$75</furtureMonth>
+		</food>	
+	</foodTrack>
+</incentives>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+<!-- 	<test name="ExistingRegisteredUserTests">
+
+		<parameter name="userId" value="bayampuser2.2086+007@gmail.com" />
+		<parameter name="password" value="password1" />
+
+		<classes>
+			<class name="com.jiff.existingregistereduserwithspouse.payouts.tests.FoodTrackingIncentivePayoutTests" />
+			<class name="com.jiff.existingregistereduserwithspouse.dashboard.tests.DashboardStepTests" />
+			<class name="com.jiff.existingregistereduserwithspouse.payouts.tests.BeActiveIncentivePayoutTests" />
+		</classes>
+	</test>
+
+	<test name="SpouseDashBoardSyncTests">
+		<parameter name="userId" value="bayampuser2.2086+007@gmail.com" />
+		<parameter name="password" value="password1" />
+		<parameter name="spouseId" value="bayampuser2.2086+007s@gmail.com" />
+		<parameter name="spousePassword" value="password1" />
+		<classes>
+			<class
+				name="com.jiff.existingregistereduserwithspouse.dashboard.tests.SpouseDashboardStepTests" />
+		</classes>
+	</test> -->
+
+	<test name="settings" preserve-order="true">
+		<parameter name="userId" value="bayampuser2.2086+007@gmail.com" />
+		<parameter name="password" value="password1" />
+
+		<classes>
+
+			<class name="com.jiff.settingspage.tests.SettingsPageTest" />
+
+		</classes>
+
+	</test>
+
+</suite> 

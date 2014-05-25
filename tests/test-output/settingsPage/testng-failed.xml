@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [settingsPage]">
+  <test name="settingsPage(failed)">
+    <classes>
+      <class name="com.jiff.settingspage.test.SettingsPageTest">
+        <methods>
+          <include name="settingsPageUpdateNameTest"/>
+          <include name="settingsPageUpdatePasswordTest"/>
+        </methods>
+      </class> <!-- com.jiff.settingspage.test.SettingsPageTest -->
+    </classes>
+  </test> <!-- settingsPage(failed) -->
+</suite> <!-- Failed suite [settingsPage] -->
